@@ -1,0 +1,7 @@
+[submodule "media/Cauldron-Media"]
+	path = media/Cauldron-Media
+	url = ../Cauldron-Media.git
+[submodule "libs/Cauldron"]
+	path = libs/Cauldron
+	url = ../Cauldron.git
+	branch = WorkGraphComputeRasterizer

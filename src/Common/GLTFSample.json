@@ -1,0 +1,232 @@
+{
+  "globals": {
+    "CpuValidationLayerEnabled": false,
+    "GpuValidationLayerEnabled": false,
+    "presentationMode": 0,
+    "width": 1920,
+    "height": 1080,
+    "activeScene": 0,
+    "benchmark": false,
+    "profile": false,
+    "vsync": false,
+    "stablePowerState": true,
+    "FreesyncHDROptionEnabled": false,
+    "fontsize": 13
+  },
+  "scenes": [
+    {
+      "name": "Sponza",
+      "directory": "..\\media\\cauldron-media\\sponza\\GLTF\\",
+      "filename": "sponza.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 0.36,
+      "emmisiveFactor": 1,
+      "intensity": 10,
+      "exposure": 1,
+      "activeCamera": -1,
+      "camera": {
+        "defaultFrom": [ 5.13694048, 1.89175785, -1.40289795 ],
+        "defaultTo": [ 0.703276634, 1.02280307, 0.218072295 ]
+      },
+      "ProfileSettings": {
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "durationFrames": 200
+      },
+      "BenchmarkSettings": {
+        "timeStep": 1,
+        "timeStart": 0,
+        "timeEnd": 10000,
+        "exitWhenTimeEnds": true,
+        "resultsFilename": "Sponza.csv",
+        "warmUpFrames": 200,
+        "sequence": {
+          "timeStart": 0,
+          "timeEnd": 2000,
+          "keyFrames": [
+            {
+              "time": 0,
+              "from": [ 5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera1.jpg"
+            },
+            {
+              "time": 1000,
+              "from": [ -5.13694048, 1.89175785, -1.40289795 ],
+              "to": [ 0.703276634, 1.02280307, 0.218072295 ],
+              "screenShotName": "camera2.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sponza (much more complex)",
+      "directory": "..\\media\\cauldron-media\\sponza-new\\",
+      "filename": "scene.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 0.36,
+      "emmisiveFactor": 1,
+      "intensity": 10,
+      "exposure": 1,
+      "activeCamera": -1,
+      "camera": {
+        "defaultFrom": [ 5.13694048, 1.89175785, -1.40289795 ],
+        "defaultTo": [ 0.703276634, 1.02280307, 0.218072295 ]
+      }
+    },
+    {
+      "name": "SanMiguel (local, need to add yourself)",
+      "directory": "..\\media\\cauldron-media\\SanMiguel\\",
+      "filename": "SanMiguel.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 0.36,
+      "emmisiveFactor": 1,
+      "intensity": 10,
+      "exposure": 1,
+      "activeCamera": -1,
+      "camera": {
+        "defaultFrom": [ 5.13694048, 1.89175785, -1.40289795 ],
+        "defaultTo": [ 0.703276634, 1.02280307, 0.218072295 ]
+      }
+    },
+    {
+      "name": "Buggy (local, need to add yourself)",
+      "directory": "..\\media\\cauldron-media\\Buggy\\glTF\\",
+      "filename": "Buggy.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 2,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 150, 150, 150 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "BusterDrone (local, need to add yourself)",
+      "directory": "..\\media\\cauldron-media\\buster_drone\\",
+      "filename": "busterDrone.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 30,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "BoomBox",
+      "directory": "..\\media\\cauldron-media\\BoomBox\\GLTF\\",
+      "filename": "BoomBox.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "Box",
+      "directory": "..\\media\\cauldron-media\\Box\\GLTF\\",
+      "filename": "Box.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "SciFiHelmet",
+      "directory": "..\\media\\cauldron-media\\SciFiHelmet\\GLTF\\",
+      "filename": "SciFiHelmet.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 1,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "DamagedHelmet",
+      "directory": "..\\media\\cauldron-media\\DamagedHelmet\\GLTF\\",
+      "filename": "DamagedHelmet.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 2,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "DragonAttenuation",
+      "directory": "D:\\Sample-Models-glTF\\2.0\\DragonAttenuation\\glTF\\",
+      "filename": "DragonAttenuation.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 2,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "GearboxAssy",
+      "directory": "..\\media\\cauldron-media\\GearboxAssy\\glTF\\",
+      "filename": "GearboxAssy.gltf",
+      "TAA": false,
+      "toneMapper": 0,
+      "iblFactor": 2,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 3.5 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    },
+    {
+      "name": "MetalRoughSpheres",
+      "directory": "..\\media\\cauldron-media\\MetalRoughSpheres\\GLTF\\",
+      "filename": "MetalRoughSpheres.gltf",
+      "TAA": false,
+      "iblFactor": 1,
+      "emmisiveFactor": 1,
+      "intensity": 50,
+      "exposure": 1,
+      "camera": {
+        "defaultFrom": [ 0, 0, 20 ],
+        "defaultTo": [ 0, 0, 0 ]
+      }
+    }
+  ]
+}
